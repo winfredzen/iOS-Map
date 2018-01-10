@@ -142,8 +142,7 @@
 				TargetAttributes = {
 					C60A30DF1F74B8A200F73287 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = W595DU2C8B;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -355,12 +354,13 @@
 			baseConfigurationReference = 1F007F9428D25DBC5C3928C7 /* Pods-BaiduMapDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = W595DU2C8B;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BaiduMapDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wz.test.BaiduMapDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -369,12 +369,13 @@
 			baseConfigurationReference = 74647A591AA53CDC974EBB05 /* Pods-BaiduMapDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = W595DU2C8B;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BaiduMapDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wz.test.BaiduMapDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
